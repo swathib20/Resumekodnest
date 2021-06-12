@@ -1,0 +1,76 @@
+@media only screen and (max-width: 360){
+    .image-adjust{
+        width: 100%;
+    }
+}
+
+ @media only screen and (max-width: 450px){
+    tr th{
+        padding: 0;
+    }
+    .passport{
+        width: 55%;  
+    }
+    .aboutself{
+        width: 65%;
+        padding: 5px;
+    }
+    .details div:first-child{
+        width: 60%;
+    }
+}
+    @media only screen and (max-width: 360px){
+        body{
+            font-size: 0.7rem;
+        }
+        .paragraph{
+            padding-left: 5px;
+        }
+        .details div:first-child{
+            width: 60%;
+        }
+    }
+    
+ 
+
+@media only screen and (max-width: 320px){
+    body{
+        font-size: 0.75rem;
+        
+    }
+    .passport{
+        width: 60%;  
+    }
+    .aboutself{
+        width: 65%;
+        font-size: 0.73rem;
+        padding: 0;
+    }
+    .table-part{
+        width:106%;
+        font-size: 0.75rem;
+    }
+    .lang div:first-child{
+        padding-left: 10px;
+    }
+    
+    .personal-details{
+        width: 100%;
+        margin: 10px;
+    }
+    
+    .details div:first-child{
+        width: 50%;
+        }
+        .details div:last-child{
+            width: 50%;
+            }
+}
+
+@media only screen and (max-width: 780px){
+    body{
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+}
+
